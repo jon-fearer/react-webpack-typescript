@@ -1,0 +1,48 @@
+{
+  "name": "react-webpack-typescript",
+  "version": "0.0.1",
+  "description": "A sample React (v17) app configured with Webpack 5 and TypeScript 4",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack -c webpack.prod.js",
+    "start": "webpack server --open --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-fearer/react-webpack-typescript.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "typescript",
+    "jest"
+  ],
+  "author": "Jon Fearer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jon-fearer/react-webpack-typescript/issues"
+  },
+  "homepage": "https://github.com/jon-fearer/react-webpack-typescript#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^17.0.16",
+    "@types/react-dom": "^17.0.9",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
+    "typescript": "^4.3.5",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
